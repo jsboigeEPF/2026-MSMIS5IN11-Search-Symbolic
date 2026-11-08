@@ -12,7 +12,15 @@ La seconde partie du cours (IA probabiliste, théorie des jeux et machine learni
 | Dépôt de la Pull Request finale | **Lundi 23 novembre 2026 à 23:59** |
 | Soutenance et démonstration | **Mercredi 25 novembre 2026, 13:15–17:00**, salle A202 C (dernière séance de la première partie) |
 
-Séances du chapitre 1 : mardi 13 octobre (après-midi), lundi 26 octobre (matin), mardi 10 novembre (après-midi), mercredi 25 novembre 2026 (matin et après-midi).
+Séances du chapitre 1 : mardi 13 octobre (après-midi), lundi 26 octobre (matin, TP1), mardi 10 novembre (après-midi), mercredi 25 novembre 2026 (matin et après-midi). Contenu des séances restantes :
+
+| Séance | Contenu |
+|---|---|
+| Mardi 10 novembre, 13:15–17:00, salle B206 C | TP2 (IA symbolique) : présentation des exercices réservés, rendus par Pull Request sur [CoursIA](https://github.com/jsboige/CoursIA) |
+| Mercredi 25 novembre, 08:30–12:15, salle A201 C | Cours : probabilités et théorie des jeux |
+| Mercredi 25 novembre, 13:15–17:00, salle A202 C | Soutenance du projet 1 |
+
+La suite du cours, à partir du mercredi 9 décembre, est décrite dans le [dépôt de la seconde partie](https://github.com/jsboigeEPF/2026-MSMIS5IN11-Probas-ML).
 
 ## Démarrage rapide
 
