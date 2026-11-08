@@ -75,6 +75,8 @@ La PR est obligatoire : un lien vers un dépôt externe, un fichier envoyé sép
 
 **Date limite : lundi 23 novembre 2026 à 23:59.**
 
+La PR n'a pas besoin d'être parfaite à cette date : elle se met à jour à chaque push. Les slides et d'éventuelles corrections peuvent suivre dans une PR complémentaire ; envoyez-la assez tôt pour qu'elle puisse être intégrée avant la soutenance.
+
 ## 7. Préparer la soutenance
 
 La démonstration doit pouvoir repartir depuis un environnement propre. Préparez un plan B enregistré ou mocké si une API externe, le réseau ou un GPU peut manquer. Chaque membre doit être capable d'expliquer l'architecture, les choix, les mesures et les limites.
