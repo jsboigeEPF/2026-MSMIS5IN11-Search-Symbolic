@@ -34,8 +34,23 @@ La moyenne des évaluations des pairs forme 50 % de la note de soutenance et l'�
 
 ```text
 note_soutenance = 50 % moyenne des pairs + 50 % évaluation de l'enseignant
-note_finale = min(20, note_soutenance + ajustement de taille du groupe)
+note_avant_bonus = note_soutenance + ajustement de taille du groupe
+note_finale = min(20, note_avant_bonus + bonus des deux TPs)
 ```
+
+## Bonus des TPs
+
+La première partie comprend deux TPs, réalisés par groupe sous forme de contribution au dépôt public [CoursIA](https://github.com/jsboige/CoursIA) : le TP1 (recherche) et le TP2 (IA symbolique). Le groupe réserve ses exercices dans l'onglet « Réservations TP » de la feuille d'inscription, les corrige dans le notebook choisi, puis propose son travail par Pull Request sur CoursIA.
+
+| Exercices corrigés et acceptés, pour un TP | Bonus |
+|---:|---:|
+| 1 exercice | rendu de base, aucun bonus |
+| 2 exercices | +0,5 point |
+| 3 exercices ou plus | +1 point maximum |
+
+Le bonus est plafonné à +1 point par TP, soit **+2 points maximum** sur la première partie. Il s'ajoute après la note de soutenance et l'ajustement de taille du groupe ; la note finale reste plafonnée à 20.
+
+Un exercice compte lorsqu'il corrige un exercice ouvert du notebook (pas un exemple déjà résolu), que les cellules modifiées s'exécutent et que la correction est acceptée à la relecture. Une correction intégrée au dépôt par une autre Pull Request, avec un crédit au groupe, compte comme acceptée. Vérifiez que vos lignes de réservation pointent vers vos Pull Requests (colonne « Livraison (PR) »).
 
 ## Attendus transverses
 
