@@ -1,0 +1,2216 @@
+{
+ "nom": "inst_s0_m3_w8_c90",
+ "nb_jours": 40,
+ "nb_creneaux": 20,
+ "heure_debut": "08:00",
+ "minutes_par_creneau": 30,
+ "date_debut": "2027-01-04",
+ "marge_jours": 40,
+ "machines": [
+  {
+   "id": 0,
+   "nom": "LINAC-A",
+   "techniques": [
+    "3D"
+   ]
+  },
+  {
+   "id": 1,
+   "nom": "LINAC-B",
+   "techniques": [
+    "3D",
+    "VMAT"
+   ]
+  },
+  {
+   "id": 2,
+   "nom": "LINAC-C",
+   "techniques": [
+    "3D",
+    "VMAT",
+    "VMAT_complexe"
+   ]
+  }
+ ],
+ "patients": [
+  {
+   "id": 0,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 1,
+    "debut": 0
+   }
+  },
+  {
+   "id": 1,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 2,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 2,
+    "debut": 0
+   }
+  },
+  {
+   "id": 2,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 17,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 7,
+    "debut": 0
+   }
+  },
+  {
+   "id": 3,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 9,
+    "debut": 0
+   }
+  },
+  {
+   "id": 4,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 11,
+    "debut": 0
+   }
+  },
+  {
+   "id": 5,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 12,
+    "debut": 0
+   }
+  },
+  {
+   "id": 6,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 3,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 14,
+    "debut": 0
+   }
+  },
+  {
+   "id": 7,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 9,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 15,
+    "debut": 0
+   }
+  },
+  {
+   "id": 8,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 1,
+   "duree": 1,
+   "machines_compatibles": [
+    0
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 0,
+    "creneau": 16,
+    "debut": 0
+   }
+  },
+  {
+   "id": 9,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 4,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 0,
+    "debut": 0
+   }
+  },
+  {
+   "id": 10,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 6,
+    "debut": 0
+   }
+  },
+  {
+   "id": 11,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 5,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 8,
+    "debut": 0
+   }
+  },
+  {
+   "id": 12,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 13,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 9,
+    "debut": 0
+   }
+  },
+  {
+   "id": 13,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 15,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 12,
+    "debut": 0
+   }
+  },
+  {
+   "id": 14,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 8,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 13,
+    "debut": 0
+   }
+  },
+  {
+   "id": 15,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 14,
+    "debut": 0
+   }
+  },
+  {
+   "id": 16,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 15,
+    "debut": 0
+   }
+  },
+  {
+   "id": 17,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 12,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 17,
+    "debut": 0
+   }
+  },
+  {
+   "id": 18,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 12,
+   "duree": 1,
+   "machines_compatibles": [
+    1
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 1,
+    "creneau": 19,
+    "debut": 0
+   }
+  },
+  {
+   "id": 19,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 25,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 1,
+    "debut": 0
+   }
+  },
+  {
+   "id": 20,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 3,
+    "debut": 0
+   }
+  },
+  {
+   "id": 21,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 11,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 4,
+    "debut": 0
+   }
+  },
+  {
+   "id": 22,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 5,
+    "debut": 0
+   }
+  },
+  {
+   "id": 23,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 6,
+    "debut": 0
+   }
+  },
+  {
+   "id": 24,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 18,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 7,
+    "debut": 0
+   }
+  },
+  {
+   "id": 25,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 13,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 8,
+    "debut": 0
+   }
+  },
+  {
+   "id": 26,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 19,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 9,
+    "debut": 0
+   }
+  },
+  {
+   "id": 27,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 18,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 10,
+    "debut": 0
+   }
+  },
+  {
+   "id": 28,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 12,
+    "debut": 0
+   }
+  },
+  {
+   "id": 29,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 13,
+    "debut": 0
+   }
+  },
+  {
+   "id": 30,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 16,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 14,
+    "debut": 0
+   }
+  },
+  {
+   "id": 31,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 19,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 16,
+    "debut": 0
+   }
+  },
+  {
+   "id": 32,
+   "arrivee": -1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 2,
+   "duree": 1,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 0,
+   "fixe": {
+    "machine": 2,
+    "creneau": 18,
+    "debut": 0
+   }
+  },
+  {
+   "id": 33,
+   "arrivee": 0,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 5,
+   "date_limite": 20,
+   "fixe": null
+  },
+  {
+   "id": 34,
+   "arrivee": 0,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 5,
+   "date_limite": 20,
+   "fixe": null
+  },
+  {
+   "id": 35,
+   "arrivee": 0,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 2,
+   "fixe": null
+  },
+  {
+   "id": 36,
+   "arrivee": 0,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 30,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 5,
+   "date_limite": 20,
+   "fixe": null
+  },
+  {
+   "id": 37,
+   "arrivee": 0,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 0,
+   "date_limite": 2,
+   "fixe": null
+  },
+  {
+   "id": 38,
+   "arrivee": 1,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 6,
+   "date_limite": 21,
+   "fixe": null
+  },
+  {
+   "id": 39,
+   "arrivee": 1,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 4,
+   "date_limite": 11,
+   "fixe": null
+  },
+  {
+   "id": 40,
+   "arrivee": 1,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 35,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 6,
+   "date_limite": 21,
+   "fixe": null
+  },
+  {
+   "id": 41,
+   "arrivee": 2,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 7,
+   "date_limite": 22,
+   "fixe": null
+  },
+  {
+   "id": 42,
+   "arrivee": 2,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 2,
+   "date_limite": 4,
+   "fixe": null
+  },
+  {
+   "id": 43,
+   "arrivee": 2,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 9,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 2,
+   "date_limite": 4,
+   "fixe": null
+  },
+  {
+   "id": 44,
+   "arrivee": 3,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 30,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 8,
+   "date_limite": 23,
+   "fixe": null
+  },
+  {
+   "id": 45,
+   "arrivee": 3,
+   "priorite": 2,
+   "technique": "VMAT_complexe",
+   "nb_seances": 25,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 6,
+   "date_limite": 13,
+   "fixe": null
+  },
+  {
+   "id": 46,
+   "arrivee": 3,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 8,
+   "date_limite": 23,
+   "fixe": null
+  },
+  {
+   "id": 47,
+   "arrivee": 4,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 7,
+   "date_limite": 14,
+   "fixe": null
+  },
+  {
+   "id": 48,
+   "arrivee": 4,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 20,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 9,
+   "date_limite": 24,
+   "fixe": null
+  },
+  {
+   "id": 49,
+   "arrivee": 5,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 28,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 10,
+   "date_limite": 25,
+   "fixe": null
+  },
+  {
+   "id": 50,
+   "arrivee": 6,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 11,
+   "date_limite": 26,
+   "fixe": null
+  },
+  {
+   "id": 51,
+   "arrivee": 6,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 11,
+   "date_limite": 26,
+   "fixe": null
+  },
+  {
+   "id": 52,
+   "arrivee": 6,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 11,
+   "date_limite": 26,
+   "fixe": null
+  },
+  {
+   "id": 53,
+   "arrivee": 8,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 13,
+   "date_limite": 28,
+   "fixe": null
+  },
+  {
+   "id": 54,
+   "arrivee": 9,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 14,
+   "date_limite": 29,
+   "fixe": null
+  },
+  {
+   "id": 55,
+   "arrivee": 9,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 12,
+   "date_limite": 19,
+   "fixe": null
+  },
+  {
+   "id": 56,
+   "arrivee": 10,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 15,
+   "date_limite": 30,
+   "fixe": null
+  },
+  {
+   "id": 57,
+   "arrivee": 10,
+   "priorite": 2,
+   "technique": "VMAT_complexe",
+   "nb_seances": 28,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 13,
+   "date_limite": 20,
+   "fixe": null
+  },
+  {
+   "id": 58,
+   "arrivee": 10,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 13,
+   "date_limite": 20,
+   "fixe": null
+  },
+  {
+   "id": 59,
+   "arrivee": 11,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 11,
+   "date_limite": 13,
+   "fixe": null
+  },
+  {
+   "id": 60,
+   "arrivee": 11,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 16,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 61,
+   "arrivee": 11,
+   "priorite": 2,
+   "technique": "VMAT_complexe",
+   "nb_seances": 22,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 14,
+   "date_limite": 21,
+   "fixe": null
+  },
+  {
+   "id": 62,
+   "arrivee": 11,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 16,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 63,
+   "arrivee": 11,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 16,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 64,
+   "arrivee": 11,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 8,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 11,
+   "date_limite": 13,
+   "fixe": null
+  },
+  {
+   "id": 65,
+   "arrivee": 12,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 35,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 17,
+   "date_limite": 32,
+   "fixe": null
+  },
+  {
+   "id": 66,
+   "arrivee": 13,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 30,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 18,
+   "date_limite": 33,
+   "fixe": null
+  },
+  {
+   "id": 67,
+   "arrivee": 13,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 29,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 18,
+   "date_limite": 33,
+   "fixe": null
+  },
+  {
+   "id": 68,
+   "arrivee": 15,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 18,
+   "date_limite": 25,
+   "fixe": null
+  },
+  {
+   "id": 69,
+   "arrivee": 15,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 9,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 15,
+   "date_limite": 17,
+   "fixe": null
+  },
+  {
+   "id": 70,
+   "arrivee": 16,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 21,
+   "date_limite": 36,
+   "fixe": null
+  },
+  {
+   "id": 71,
+   "arrivee": 16,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 5,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 16,
+   "date_limite": 18,
+   "fixe": null
+  },
+  {
+   "id": 72,
+   "arrivee": 16,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 35,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 21,
+   "date_limite": 36,
+   "fixe": null
+  },
+  {
+   "id": 73,
+   "arrivee": 16,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 19,
+   "date_limite": 26,
+   "fixe": null
+  },
+  {
+   "id": 74,
+   "arrivee": 17,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 22,
+   "date_limite": 37,
+   "fixe": null
+  },
+  {
+   "id": 75,
+   "arrivee": 17,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 22,
+   "date_limite": 37,
+   "fixe": null
+  },
+  {
+   "id": 76,
+   "arrivee": 18,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 30,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 23,
+   "date_limite": 38,
+   "fixe": null
+  },
+  {
+   "id": 77,
+   "arrivee": 18,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 23,
+   "date_limite": 38,
+   "fixe": null
+  },
+  {
+   "id": 78,
+   "arrivee": 18,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 34,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 23,
+   "date_limite": 38,
+   "fixe": null
+  },
+  {
+   "id": 79,
+   "arrivee": 19,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 24,
+   "date_limite": 39,
+   "fixe": null
+  },
+  {
+   "id": 80,
+   "arrivee": 19,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 20,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 22,
+   "date_limite": 29,
+   "fixe": null
+  },
+  {
+   "id": 81,
+   "arrivee": 21,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 24,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 82,
+   "arrivee": 21,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 24,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 83,
+   "arrivee": 21,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 24,
+   "date_limite": 31,
+   "fixe": null
+  },
+  {
+   "id": 84,
+   "arrivee": 21,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 26,
+   "date_limite": 41,
+   "fixe": null
+  },
+  {
+   "id": 85,
+   "arrivee": 22,
+   "priorite": 3,
+   "technique": "VMAT_complexe",
+   "nb_seances": 22,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 27,
+   "date_limite": 42,
+   "fixe": null
+  },
+  {
+   "id": 86,
+   "arrivee": 22,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 25,
+   "date_limite": 32,
+   "fixe": null
+  },
+  {
+   "id": 87,
+   "arrivee": 22,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 25,
+   "date_limite": 32,
+   "fixe": null
+  },
+  {
+   "id": 88,
+   "arrivee": 22,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 27,
+   "date_limite": 42,
+   "fixe": null
+  },
+  {
+   "id": 89,
+   "arrivee": 22,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 7,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 22,
+   "date_limite": 24,
+   "fixe": null
+  },
+  {
+   "id": 90,
+   "arrivee": 22,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 30,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 25,
+   "date_limite": 32,
+   "fixe": null
+  },
+  {
+   "id": 91,
+   "arrivee": 22,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 27,
+   "date_limite": 42,
+   "fixe": null
+  },
+  {
+   "id": 92,
+   "arrivee": 23,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 28,
+   "date_limite": 43,
+   "fixe": null
+  },
+  {
+   "id": 93,
+   "arrivee": 23,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 28,
+   "date_limite": 43,
+   "fixe": null
+  },
+  {
+   "id": 94,
+   "arrivee": 23,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 32,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 28,
+   "date_limite": 43,
+   "fixe": null
+  },
+  {
+   "id": 95,
+   "arrivee": 23,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 26,
+   "date_limite": 33,
+   "fixe": null
+  },
+  {
+   "id": 96,
+   "arrivee": 23,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 32,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 26,
+   "date_limite": 33,
+   "fixe": null
+  },
+  {
+   "id": 97,
+   "arrivee": 24,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 29,
+   "date_limite": 44,
+   "fixe": null
+  },
+  {
+   "id": 98,
+   "arrivee": 24,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 27,
+   "date_limite": 34,
+   "fixe": null
+  },
+  {
+   "id": 99,
+   "arrivee": 25,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 21,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 30,
+   "date_limite": 45,
+   "fixe": null
+  },
+  {
+   "id": 100,
+   "arrivee": 25,
+   "priorite": 2,
+   "technique": "VMAT_complexe",
+   "nb_seances": 25,
+   "duree": 2,
+   "machines_compatibles": [
+    2
+   ],
+   "debut_au_plus_tot": 28,
+   "date_limite": 35,
+   "fixe": null
+  },
+  {
+   "id": 101,
+   "arrivee": 26,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 29,
+   "date_limite": 36,
+   "fixe": null
+  },
+  {
+   "id": 102,
+   "arrivee": 27,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 22,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 32,
+   "date_limite": 47,
+   "fixe": null
+  },
+  {
+   "id": 103,
+   "arrivee": 27,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 32,
+   "date_limite": 47,
+   "fixe": null
+  },
+  {
+   "id": 104,
+   "arrivee": 28,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 31,
+   "date_limite": 38,
+   "fixe": null
+  },
+  {
+   "id": 105,
+   "arrivee": 29,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 34,
+   "date_limite": 49,
+   "fixe": null
+  },
+  {
+   "id": 106,
+   "arrivee": 29,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 32,
+   "date_limite": 39,
+   "fixe": null
+  },
+  {
+   "id": 107,
+   "arrivee": 29,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 32,
+   "date_limite": 39,
+   "fixe": null
+  },
+  {
+   "id": 108,
+   "arrivee": 30,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 8,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 30,
+   "date_limite": 32,
+   "fixe": null
+  },
+  {
+   "id": 109,
+   "arrivee": 30,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 20,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 35,
+   "date_limite": 50,
+   "fixe": null
+  },
+  {
+   "id": 110,
+   "arrivee": 30,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 32,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 35,
+   "date_limite": 50,
+   "fixe": null
+  },
+  {
+   "id": 111,
+   "arrivee": 31,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 36,
+   "date_limite": 51,
+   "fixe": null
+  },
+  {
+   "id": 112,
+   "arrivee": 32,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 35,
+   "date_limite": 42,
+   "fixe": null
+  },
+  {
+   "id": 113,
+   "arrivee": 34,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 26,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 39,
+   "date_limite": 54,
+   "fixe": null
+  },
+  {
+   "id": 114,
+   "arrivee": 34,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 37,
+   "date_limite": 44,
+   "fixe": null
+  },
+  {
+   "id": 115,
+   "arrivee": 35,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 33,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 55,
+   "fixe": null
+  },
+  {
+   "id": 116,
+   "arrivee": 35,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 38,
+   "date_limite": 45,
+   "fixe": null
+  },
+  {
+   "id": 117,
+   "arrivee": 35,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 55,
+   "fixe": null
+  },
+  {
+   "id": 118,
+   "arrivee": 35,
+   "priorite": 1,
+   "technique": "3D",
+   "nb_seances": 10,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 35,
+   "date_limite": 37,
+   "fixe": null
+  },
+  {
+   "id": 119,
+   "arrivee": 35,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 25,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 55,
+   "fixe": null
+  },
+  {
+   "id": 120,
+   "arrivee": 35,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 35,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 55,
+   "fixe": null
+  },
+  {
+   "id": 121,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 122,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 23,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 123,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 124,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 24,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 125,
+   "arrivee": 36,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 39,
+   "date_limite": 46,
+   "fixe": null
+  },
+  {
+   "id": 126,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 32,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 127,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 128,
+   "arrivee": 36,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 28,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 39,
+   "date_limite": 46,
+   "fixe": null
+  },
+  {
+   "id": 129,
+   "arrivee": 36,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 41,
+   "date_limite": 56,
+   "fixe": null
+  },
+  {
+   "id": 130,
+   "arrivee": 37,
+   "priorite": 2,
+   "technique": "3D",
+   "nb_seances": 27,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 47,
+   "fixe": null
+  },
+  {
+   "id": 131,
+   "arrivee": 37,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 31,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 42,
+   "date_limite": 57,
+   "fixe": null
+  },
+  {
+   "id": 132,
+   "arrivee": 37,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 47,
+   "fixe": null
+  },
+  {
+   "id": 133,
+   "arrivee": 37,
+   "priorite": 3,
+   "technique": "3D",
+   "nb_seances": 29,
+   "duree": 1,
+   "machines_compatibles": [
+    0,
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 42,
+   "date_limite": 57,
+   "fixe": null
+  },
+  {
+   "id": 134,
+   "arrivee": 37,
+   "priorite": 2,
+   "technique": "VMAT",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 40,
+   "date_limite": 47,
+   "fixe": null
+  },
+  {
+   "id": 135,
+   "arrivee": 39,
+   "priorite": 3,
+   "technique": "VMAT",
+   "nb_seances": 34,
+   "duree": 1,
+   "machines_compatibles": [
+    1,
+    2
+   ],
+   "debut_au_plus_tot": 44,
+   "date_limite": 59,
+   "fixe": null
+  }
+ ]
+}
