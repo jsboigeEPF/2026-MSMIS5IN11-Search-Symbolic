@@ -12,7 +12,7 @@ La seconde partie du cours (IA probabiliste, théorie des jeux et machine learni
 | Dépôt de la Pull Request finale | **Lundi 23 novembre 2026 à 23:59** |
 | Soutenance et démonstration | **Mercredi 25 novembre 2026, 13:15–17:00**, salle A202 C (dernière séance de la première partie) |
 
-Séances du chapitre 1 : mardi 13 octobre (après-midi), lundi 26 octobre (matin, TP1), mardi 10 novembre (après-midi), mercredi 25 novembre 2026 (matin et après-midi). Contenu des séances restantes :
+Séances du chapitre 1 : lundi 12 octobre, mardi 13 octobre (après-midi), lundi 26 octobre (matin, TP1), mardi 10 novembre (après-midi), lundi 16 novembre, mercredi 25 novembre 2026 (matin et après-midi). Contenu des séances restantes :
 
 | Séance | Contenu |
 |---|---|
