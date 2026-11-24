@@ -1,0 +1,5 @@
+Instance SYNTHÉTIQUE de petite taille, k=3, optimum certifié par ILP
+Glouton: 2534.0 individus, écart 0.00 %, 0.000 s
+Génétique: 2534.0 individus, écart 0.00 %, 0.248 s
+Recuit simulé: 2534.0 individus, écart 0.00 %, 0.189 s
+Exact ILP: 2534.0 individus, écart 0.00 %, 0.024 s

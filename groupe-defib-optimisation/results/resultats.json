@@ -1,0 +1,41 @@
+{
+  "ville": "Montpellier",
+  "donnees": "Géo'DAE et INSEE Filosofi 2019",
+  "rayon_m": 350,
+  "nombre_nouveaux_dae": 5,
+  "population_totale_estimee": 236362.0,
+  "population_deja_couverte": 228940.5,
+  "resultats": [
+    {
+      "methode": "Glouton",
+      "population_couverte": 230423.0,
+      "taux_couverture_pourcent": 97.49,
+      "gain_vs_initial": 1482.5,
+      "temps_secondes": 0.0033,
+      "contraintes_verifiees": true
+    },
+    {
+      "methode": "Génétique",
+      "population_couverte": 230423.0,
+      "taux_couverture_pourcent": 97.49,
+      "gain_vs_initial": 1482.5,
+      "temps_secondes": 0.884,
+      "contraintes_verifiees": true
+    },
+    {
+      "methode": "Recuit simulé",
+      "population_couverte": 230423.0,
+      "taux_couverture_pourcent": 97.49,
+      "gain_vs_initial": 1482.5,
+      "temps_secondes": 0.5357,
+      "contraintes_verifiees": true
+    }
+  ],
+  "meilleure_methode": "Glouton",
+  "limites": [
+    "Distance euclidienne, pas de cheminement piéton",
+    "La couverture géographique ne prédit pas directement la survie",
+    "Accès et disponibilité des DAE non contrôlés",
+    "Candidats limités aux centres de certains carreaux peuplés"
+  ]
+}
